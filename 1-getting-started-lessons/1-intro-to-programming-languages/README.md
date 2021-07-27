@@ -18,7 +18,7 @@
 - סוגי שפות תכנות
 - אלמנטים בסיסיים של תוכנית
 - תוכנה שימושית וכלים למפתח המקצועי
-> אתה יכול ללמוד את השיעור הזה ב- [Microsoft Learn] (https://docs.microsoft.com/learn/modules/web-development-101/introduction-programming?WT.mc_id=academic-13441-cxa)!
+> אתה יכול ללמוד את השיעור הזה ב- [Microsoft Learn](https://docs.microsoft.com/learn/modules/web-development-101/introduction-programming?WT.mc_id=academic-13441-cxa)!
 
 
 ## מהי תכנות?
@@ -84,7 +84,7 @@ back add r0,r1
 ✅ תוכלו ללמוד עוד על הצהרה מסוג זה בשיעורים הבאים
 
 ## כלי פיתוח
-[! [כלי פיתוח] (https://img.youtube.com/vi/69WJeXGBdxg/0.jpg)] (https://youtube.com/watch?v=69WJeXGBdxg "כלי פיתוח")
+[! [כלי פיתוח](https://img.youtube.com/vi/69WJeXGBdxg/0.jpg)](https://youtube.com/watch?v=69WJeXGBdxg "כלי פיתוח")
 
 
 > 🎥 לחץ על התמונה שלמעלה לסרטון אודות כלי פיתוח
@@ -103,11 +103,11 @@ back add r0,r1
 
 
 #### עורכי קוד פופולריים ותוספים לפיתוח אתרים
-- [Visual Studio Code](https://code.visualstudio.com/)
+  - [Visual Studio Code](https://code.visualstudio.com/)
   - [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
   - [Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare-pack)
   - [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
-- [Atom](https://atom.io/)
+  - [Atom](https://atom.io/)
   - [spell-check](https://atom.io/packages/spell-check)
   - [teletype](https://atom.io/packages/teletype)
   - [atom-beautify](https://atom.io/packages/atom-beautify)
@@ -189,6 +189,6 @@ back add r0,r1
 
 ## מטלה
 
-[קריאת תיעוד] (assignment.md)
+[קריאת תיעוד](assignment.md)
 
 
