@@ -1,41 +1,38 @@
-# Introduction to Programming Languages and Tools of the Trade
 
-This lesson covers the basics of programming languages. The topics covered here apply to most modern programming languages today. In the 'Tools of the Trade' section, you'll learn about useful software that helps you as a developer.
+# מבוא לשפות תכנות וכלי פיתוח
+
+
+שיעור זה מכסה את יסודות שפות התכנות. הנושאים הנדונים כאן חלים על שפות התכנות המודרניות ביותר כיום. בקטע 'כלים לפיתוח' תלמד על תוכנות שימושיות שיסייעו לך כמפתח.
 
 ![Intro Programming](/sketchnotes/webdev101-programming.png)
 > Sketchnote by [Tomomi Imura](https://twitter.com/girlie_mac)
 
-## Pre-Lecture Quiz
-[Pre-lecture quiz](https://nice-beach-0fe9e9d0f.azurestaticapps.net/quiz/1)
 
-## Introduction
+## חידון לפני השיעור
+[חידון לפני השיעור](https://nice-beach-0fe9e9d0f.azurestaticapps.net/quiz/1)
 
-In this lesson, we'll cover:
 
-- What is programming?
-- Types of programming languages
-- Basic elements of a program
-- Useful software and tooling for the professional developer
+## מבוא
+בשיעור זה נסקור:
+- מה זה תכנות?
+- סוגי שפות תכנות
+- אלמנטים בסיסיים של תוכנית
+- תוכנה שימושית וכלים למפתח המקצועי
+> אתה יכול ללמוד את השיעור הזה ב- [Microsoft Learn] (https://docs.microsoft.com/learn/modules/web-development-101/introduction-programming?WT.mc_id=academic-13441-cxa)!
 
-> You can take this lesson on [Microsoft Learn](https://docs.microsoft.com/learn/modules/web-development-101/introduction-programming?WT.mc_id=academic-13441-cxa)!
 
-## What is Programming?
+## מהי תכנות?
+תכנות (המכונה גם קידוד) הוא תהליך של כתיבת הוראות למכשיר, כגון מחשב או מכשיר נייד. אנו כותבים הוראות אלה בשפת תכנות, המתפרשת על ידי המכשיר. ניתן לכנות קבוצות הוראות אלה בשמות שונים, אך *תוכנה*, *תוכנת מחשב*, *יישום (אפליקציה)* ו *הפעלה* הם כמה שמות פופולריים.
+*תוכנה* יכולה להיות כל מה שכתוב עם קוד; אתרים, משחקים ואפליקציות טלפון הם תוכנות. אמנם ניתן ליצור תוכנה ללא כתיבת קוד, אך ההיגיון הבסיסי מתפרש למכשיר וככל הנראה ההיגיון הזה נכתב עם קוד. תוכנה ש- *פועלת* או *מבצעת קוד* מבצעת הוראות. המכשיר שאיתו אתה קורא כעת את השיעור הזה מריץ תוכנית להדפסת המסך שלך.
 
-Programming (also known as coding) is the process of writing instructions to a device, such as a computer or mobile device. We write these instructions with a programming language, which is then interpreted by the device. These sets of instructions may be referred to by various names, but *program*, *computer program*, *application (app)*, and *executable* are a few popular names.
+✅ עשו מחקר קטן: מי נחשב למתכנת המחשבים הראשון בעולם?
 
-A *program* can be anything that is written with code; websites, games, and phone apps are programs. While it's possible to create a program without writing code, the underlying logic is interpreted to the device and that logic was most likely written with code. A program that is *running* or *executing code* is carrying out instructions. The device that you're currently reading this lesson with is running a program to print it to your screen.
 
-✅ Do a little research: who is considered to have been the world's first computer programmer?
-
-## Programming Languages
-
-Programming languages serve a main purpose: for developers to build instructions to send to a device. Devices only can understand binary (1s and 0s), and for *most* developers that's not a very efficient way to communicate. Programming languages are a vehicle for communication between humans and computers.
-
-Programming languages come in different formats and may serve different purposes. For example, JavaScript is primarily used for web applications, while Bash is primarily used for operating systems.
-
-*Low level languages* typically require fewer steps than *high level languages* for a device to interpret instructions. However, what makes high level languages popular is its readability and support. JavaScript is considered a high level language.
-
-The following code illustrates the difference between a high level language with JavaScript and low level language with ARM assembly code.
+## שפות תכנות
+שפות תכנות משרתות מטרה עיקרית: עבור מפתחים לבנות הוראות לשליחה למכשיר. מכשירים יכולים להבין רק בינאריות (1 ו 0), ועבור *רוב* המפתחים זו לא דרך יעילה מאוד לתקשר. שפות תכנות הן כלי תקשורת בין בני אדם למחשבים.
+שפות תכנות מגיעות בפורמטים שונים ועשויות לשרת מטרות שונות. לדוגמא, JavaScript משמש בעיקר ליישומי אינטרנט, בעוד ש- Bash משמש בעיקר למערכות הפעלה.
+*שפות ברמה נמוכה* בדרך כלל דורשות פחות צעדים מ *שפות ברמה גבוהה* כדי שמכשיר יפרש הוראות. עם זאת, מה שהופך שפות ברמה גבוהה לפופולאריות הוא הקריאות והתמיכה שלה. JavaScript נחשב לשפה ברמה גבוהה.
+הקוד הבא ממחיש את ההבדל בין שפה ברמה גבוהה עם JavaScript לבין שפה ברמה נמוכה עם קוד אסמבלי של ARM.
 
 ```javascript
 let number = 10
@@ -74,43 +71,38 @@ back add r0,r1
  end
 ```
 
-Believe it or not, *they're both doing the same thing*: printing a Fibonacci sequence up to 10.
+תאמינו או לא, *שניהם עושים את אותו הדבר*: הדפסת רצף פיבונאצ'י עד 10.
+רצף פיבונאצ'י  [מוגדר](https://en.wikipedia.org/wiki/Fibonacci_number) כקבוצת מספרים כך שכל מספר הוא הסכום של שני הקודמים, החל מ- 0 ו- 1.
 
-✅ A Fibonacci sequence is [defined](https://en.wikipedia.org/wiki/Fibonacci_number) as a set of numbers such that each number is the sum of the two preceding ones, starting from 0 and 1.
 
-## Elements of a program
+## אלמנטים של תוכנה
+הוראה בודדת בתוכנה נקראת *הצהרה* ובדרך כלל תהיה לה תווים או רווח בין שורות המסמנים היכן ההוראה מסתיימת, או *מסתיימת*. אופן סיום התוכנה משתנה עם כל שפה.
+רוב התוכניות מסתמכות על שימוש בנתונים ממשתמש או ממקום אחר, כאשר הצהרות עשויות להסתמך על נתונים לצורך ביצוע הוראות. נתונים יכולים לשנות את אופן הפעולה של התוכנית, כך ששפות התכנות מגיעות עם דרך לאחסן נתונים באופן זמני שניתן להשתמש בהם מאוחר יותר. נתונים אלה נקראים *משתנים*. משתנים הם הצהרות המורות למכשיר לשמור נתונים בזיכרון. המשתנים בתוכניות דומים לאלה שבאלגברה, שם יש להם שם ייחודי וערכם עשוי להשתנות עם הזמן.
 
-A single instruction in a program is called a *statement* and will usually have a character or line spacing that marks where the instruction ends, or *terminates*. How a program terminates varies with each language.
+יש סיכוי שחלק מההצהרות לא יבוצעו על ידי מכשיר. זה בדרך כלל  בכוונה כאשר הוא נכתב על ידי המפתח או במקרה כאשר מתרחשת שגיאה בלתי צפויה. סוג זה של שליטה ביישום הופך אותו לחזק יותר ומתחזק. בדרך כלל שינויים אלה בשליטה מתרחשים כאשר מתקבלות החלטות מסוימות. הצהרה נפוצה בשפות תכנות מודרניות לבקרת אופן הפעלת התוכנית היא הצהרת 'if..else'.
 
-Most programs rely on using data from a user or elsewhere, where statements may rely on data to carry out instructions. Data can change how a program behaves, so programming languages come with a way to temporarily store data that can be used later. This data is called *variables*. Variables are statements that instruct a device to save data in its memory. Variables in programs are similar to ones in algebra, where they have a unique name and their value may change over time.
+✅ תוכלו ללמוד עוד על הצהרה מסוג זה בשיעורים הבאים
 
-There's a chance that some statements will not be executed by a device. This is usually by design when written by the developer or by accident when an unexpected error occurs. This type of control of an application makes it more robust and maintainable. Typically these changes in control happen when certain decisions are met. A common statement in modern programming languages to control how a program is run is the `if..else` statement.
+## כלי פיתוח
+[! [כלי פיתוח] (https://img.youtube.com/vi/69WJeXGBdxg/0.jpg)] (https://youtube.com/watch?v=69WJeXGBdxg "כלי פיתוח")
 
-✅ You'll learn more about this type of statement in subsequent lessons
 
-## Tools of the Trade
+> 🎥 לחץ על התמונה שלמעלה לסרטון אודות כלי פיתוח
+בחלק זה תלמד על תוכנות מסוימות שעשויות להועיל לך מאוד כאשר אתה מתחיל במסע הפיתוח המקצועי שלך.
+**סביבת פיתוח** היא מערכת ייחודית של כלים ותכונות בהם מפתח ישתמש לעתים קרובות בעת כתיבת תוכנה. חלק מהכלים הללו הותאמו לצרכים ספציפיים למפתח, ועשויים להשתנות עם הזמן אם מפתח משנה סדרי עדיפויות בעבודה או בפרויקטים אישיים, או כאשר הם משתמשים בשפת תכנות אחרת. סביבות פיתוח ייחודיות כמו המפתחים המשתמשים בהן.
 
-[![Tools of the Trade](https://img.youtube.com/vi/69WJeXGBdxg/0.jpg)](https://youtube.com/watch?v=69WJeXGBdxg "Tools of the Trade")
+### עורכי קוד
 
-> 🎥 Click the image above for a video about tooling
+אחד הכלים החשובים ביותר לפיתוח תוכנה הוא העורך. העורכים הם המקום בו אתה כותב את הקוד ולפעמים במקום בו תריץ את הקוד שלך.
+מפתחים מסתמכים על עורכי קוד מכמה סיבות נוספות:
+- *איתור באגים* גילוי באגים ושגיאות על ידי מעבר בקוד, שורה אחר שורה. לעורכים מסוימים יכולות ניפוי באגים, או שניתן להתאים אותם ולהוסיף אותם לשפות תכנות ספציפיות.
+- *הדגשת תחביר* מוסיף צבעים ועיצוב טקסט לקוד, מקל על הקריאה. מרבית העורכים מאפשרים הדגשת תחביר מותאמת אישית.
+- *הרחבות ואינטגרציות* תוספים ייעודיים עבור מפתחים, לגישה לכלים נוספים שאינם מובנים בעורך קוד הבסיסי. לדוגמא, מפתחים רבים זקוקים גם לדרך לתעד את הקוד שלהם ולהסביר כיצד הוא פועל, ויתקינו תוסף לבדיקת איות כדי לבדוק שגיאות הקלדה. רוב התוספים הללו מיועדות לשימוש בתוך עורך ספציפי, ורוב העורכים מגיעים עם דרך לחפש תוספים זמינים (כמו שיש בדפדפן).
+- *התאמה אישית* מרבית העורכים ניתנים להתאמה אישית רבה, ולכל מפתח תהיה סביבת פיתוח ייחודית משלה המתאימה לצרכיהם. רבים מאפשרים גם למפתחים ליצור תוספים משלהם.
 
-In this section, you'll learn about some software that you might find very useful as you start your professional development journey.
 
-A **development environment** is a unique set of tools and features that a developer will use often when writing software. Some of these tools have been customized for a developer specific needs, and may change over time if a developer changes priorities in work or personal projects, or when they use a different programming language. Development environments are as unique as the developers who use them.
 
-### Editors
-
-One of the most crucial tools for software development is the editor. Editors are where you write your code and sometimes where you will run your code.
-
-Developers rely on editors for a few additional reasons:
-
-- *Debugging* Discovering bugs and errors by stepping through code, line by line. Some editors have debugging capabilities, or can be customized and added for specific programming languages.  
-- *Syntax highlighting* Adds colors and text formatting to code, makes it easier to read. Most editors allow customized syntax highlighting.
-- *Extensions and Integrations* Additions that are specialized for developers, by developers, for access to additional tools that aren't built into the base editor. For example, many developers also need a way to document their code and explain how it works and will install a spell check extension to check for typos. Most of these additions are intended for use within a specific editor, and most editors come with a way to search for available extensions.
-- *Customization* Most editors are extremely customizable, and each developer will have their own unique development environment that suits their needs. Many also allow developers to create their own extension.
-
-#### Popular Editors and Web Development Extensions
-
+#### עורכי קוד פופולריים ותוספים לפיתוח אתרים
 - [Visual Studio Code](https://code.visualstudio.com/)
   - [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
   - [Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare-pack)
@@ -120,27 +112,24 @@ Developers rely on editors for a few additional reasons:
   - [teletype](https://atom.io/packages/teletype)
   - [atom-beautify](https://atom.io/packages/atom-beautify)
 
-### Browsers
 
-Another crucial tool is the browser. Web developers rely on the browser to observe how their code runs on the web, it's also used to view visual elements of a web page that are written in the editor, like HTML.
+### דפדפנים
+כלי מכריע נוסף הוא הדפדפן. מפתחי אתרים מסתמכים על הדפדפן כדי לראות כיצד הקוד שלהם פועל באינטרנט, הוא משמש גם לצפייה באלמנטים חזותיים של דף אינטרנט שכתובים בעורך, כמו HTML.
+דפדפנים רבים מגיעים עם *כלי מפתחים* (DevTools) המכילים מערך של תכונות ומידע מועיל שיסייעו למפתחים לאסוף מידע חשוב לגבי היישום שלהם. לדוגמא: אם בדף אינטרנט יש שגיאות, לפעמים כדאי לדעת מתי התרחשו. ניתן להגדיר DevTools בדפדפן כדי ללכוד מידע זה.
 
-Many browsers come with *developer tools* (DevTools) that contain a set of helpful features and information to assist developers to collect and capture important insights about their application. For example: If a web page has errors, it's sometimes helpful to know when they occurred. DevTools in a browser can be configured to capture this information.
 
-#### Popular Browsers and DevTools
+#### דפדפנים פופולריים ו- DevTools
 
 - [Edge](https://docs.microsoft.com/microsoft-edge/devtools-guide-chromium?WT.mc_id=academic-13441-cxa)
 - [Chrome](https://developers.google.com/web/tools/chrome-devtools/)
 - [Firefox](https://developer.mozilla.org/docs/Tools)
 
-### Command Line Tools
+### כלים לשורת הפקודה
+יש מפתחים שמעדיפים ממשק פחות גרפי למשימות היומיומיות שלהם וסומכים על שורת הפקודה כדי להשיג זאת. פיתוח קוד דורש הקלדה משמעותית ויש מפתחים שמעדיפים לא לשבש את הזריהמ של העבודה במקלדת וישתמשו בקיצורי מקשים להחלפה בין חלונות שולחן העבודה, לעבוד על קבצים שונים ולהשתמש בכלים שונים. ניתן לבצע את רוב המשימות בעזרת עכבר, אך יתרון אחד בשימוש בשורת הפקודה הוא שניתן לעשות הרבה בכלי שורת פקודה ללא צורך במעבר בין העכבר למקלדת. יתרון נוסף של שורת הפקודה הוא שהם ניתנים להגדרה וניתן לשמור את התצורה המותאמת אישית שלך, לשנות אותה מאוחר יותר, וגם לייבא אותה למכונות פיתוח חדשות . מכיוון שסביבות הפיתוח כל כך ייחודיות לכל מפתח, יש שיימנעו משימוש בשורת הפקודה, יש שיסמכו עליה לחלוטין, ויש המעדיפים שילוב של השניים.
 
-Some developers prefer a less graphical view for their daily tasks and rely on the command line to achieve this. Developing code requires a significant amount of typing, and some developers prefer to not disrupt their flow on the keyboard and will use keyboard shortcuts to swap between desktop windows, work on different files, and use tools. Most tasks can be completed with a mouse, but one benefit of using the command line is that a lot can be done with command line tools without the need of swapping between the mouse and keyboard. Another benefit of the command line is that they're configurable and you can save your custom configuration, change it later, and also import it to new development machines. Because development environments are so unique to each developer, some will avoid using the command line, some will rely on it entirely, and some prefer a mix of the two.
-
-### Popular Command Line Options
-
-Options for the command line will differ based on the operating system you use.
-
-*💻 = comes preinstalled on the operating system.*
+### אפשרויות שורת פקודה פופולריות
+האפשרויות עבור שורת הפקודה יהיו שונות בהתאם למערכת ההפעלה בה אתה משתמש.
+*💻 = מותקן מראש במערכת ההפעלה.*
 
 #### Windows
 
@@ -161,38 +150,45 @@ Options for the command line will differ based on the operating system you use.
 - [KDE Konsole](https://docs.kde.org/trunk5/en/konsole/konsole/index.html)
 - [Powershell](https://docs.microsoft.com/powershell/scripting/install/installing-powershell-core-on-linux?view=powershell-7?WT.mc_id=academic-13441-cxa)
 
-#### Popular Command Line Tools
+
+#### כלי שורת פקודה פופולריים
 
 - [Git](https://git-scm.com/) (💻 on most operating sytems)
 - [NPM](https://www.npmjs.com/)
 - [Yarn](https://classic.yarnpkg.com/en/docs/cli/)
 
-### Documentation
+### תיעוד
+כאשר מפתח רוצה ללמוד משהו חדש, קרוב לוודאי שהוא יפנה לתיעוד כדי ללמוד כיצד להשתמש בו. מפתחים מסתמכים על תיעוד לעתים קרובות כדי להדריך אותם כיצד להשתמש בכלים ובשפות כראוי, וגם כדי לקבל ידע מעמיק יותר כיצד הוא פועל.
 
-When a developer wants to learn something new, they'll most likely turn to documentation to learn how to use it. Developers rely on documentation often to guide them through how to use tools and languages properly, and also to gain deeper knowledge of how it works.
 
-#### Popular Documentation on Web Development
+#### אתרי תיעוד פופולריים בנושא פיתוח אתרים
 
 - [Mozilla Developer Network (MDN)](https://developer.mozilla.org/docs/Web), from Mozilla, the publishers of the [Firefox](https://www.mozilla.org/firefox/) browser
 - [Frontend Masters](https://frontendmasters.com/learn/)
 - [Web.dev](https://web.dev), from Google, publishers of [Chrome](https://www.google.com/chrome/)
 - [Microsoft's own developer docs](https://docs.microsoft.com/microsoft-edge/#microsoft-edge-for-developers), for [Microsoft Edge](https://www.microsoft.com/edge)
 
-✅ Do some research: Now that you know the basics of a web developer's environment, compare and contrast it with a web designer's environment.
 
+✅ עשה מחקר: כעת, כאשר אתה מכיר את היסודות של סביבת מפתח אתרים, השווה זאת לסביבה של מעצב אתרים.
 ---
 
-## 🚀 Challenge
 
-Compare some programming languages. What are some of the unique traits of JavaScript vs. Java? How about COBOL vs. Go?
+## 🚀 אתגר
 
-## Post-Lecture Quiz
-[Post-lecture quiz](https://nice-beach-0fe9e9d0f.azurestaticapps.net/quiz/2)
+השווה בין כמה שפות תכנות. מהן כמה מהתכונות הייחודיות של JavaScript לעומת Java? מה דעתך על COBOL לעומת Go?
 
-## Review & Self Study
 
-Study a bit on the different languages available to the programmer. Try to write a line in one language, and then redo it in two others. What do you learn?
+## חידון לאחר קריאה
+[חידון לאחר קריאה](https://nice-beach-0fe9e9d0f.azurestaticapps.net/quiz/2)
 
-## Assignment
 
-[Reading the Docs](assignment.md)
+## סקירה ומחקר עצמי
+
+למד קצת על השפות השונות העומדות לרשות המתכנת. נסה לכתוב שורה בשפה אחת, ולאחר מכן בצע אותה מחדש בשתי אחרות. מה אתה לומד?
+
+
+## מטלה
+
+[קריאת תיעוד] (assignment.md)
+
+
