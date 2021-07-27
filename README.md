@@ -11,6 +11,8 @@
 Web-Dev-For-Beginners
 https://github.com/ynigun/Web-Dev-For-Beginners
 
+<div dir="rtl">
+
 
 # פיתוח ווב למתחילים - מדריך
 
@@ -92,4 +94,4 @@ https://github.com/ynigun/Web-Dev-For-Beginners
 | 24 | [אפליקציית בנק](/7-bank-project/solution/README.md) | מושגי ניהול State | למד כיצד האפליקציה שלך שומרת על המצב וכיצד לנהל אותה באופן תכנותי |[ניהול State](/7-bank-project/4-state-management/README.md) | Yohan |
 
 
-
+</div>
